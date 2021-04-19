@@ -11,8 +11,8 @@
     <groupId>com.fittefrieten</groupId>
     <artifactId>gateway</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>gateway</name>
-    <description>Demo project for Spring Boot</description>
+    <name>API Gateway</name>
+    <description>API Gateway for FitteFrietjes</description>
     <properties>
         <java.version>11</java.version>
         <spring-cloud.version>Hoxton.BUILD-SNAPSHOT</spring-cloud.version>
