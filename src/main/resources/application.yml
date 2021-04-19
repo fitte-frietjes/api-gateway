@@ -10,6 +10,9 @@ zuul:
     profile-api:
       path: /profile/**
       service-id: profile-service
+    location-api:
+      path: /location/**
+      service-id: location-service
 
 eureka:
   client:
