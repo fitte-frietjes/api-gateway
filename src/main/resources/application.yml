@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: api-gateway
+
+server:
+  port: 8001
+
+zuul:
+  routes:
+    profile-api:
+      path: /profile/**
+      service-id: profile-service
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/
