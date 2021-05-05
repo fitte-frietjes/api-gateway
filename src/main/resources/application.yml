@@ -7,9 +7,15 @@ server:
 
 zuul:
   routes:
-    profile-api:
-      path: /profile/**
-      service-id: profile-service
+    profile:
+#      Microservice Profile-Service is available at Eureka with http://localhost:profile-service/profile/1 and available for front-end with http://localhost/8001/profile/1
+#      path: /profile/**
+#      service-id: profile-service
+      url: profile-service
+    workout:
+      url: workout-service
+    location:
+      url: location-service
 
 eureka:
   client:
